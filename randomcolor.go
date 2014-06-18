@@ -1,4 +1,4 @@
-package main
+package randomcolor
 
 import (
 	"fmt"
@@ -249,7 +249,7 @@ func randWithin(r Range) int {
 	return r[0] + rand.Intn(r[1]+1-r[0])
 }
 
-func main() {
+/*func main() {
 	options := Options{
 		Color: &Purple,
 	}
@@ -258,4 +258,4 @@ func main() {
 		color := NewColor(options)
 		fmt.Println(color.RGBA())
 	}
-}
+}*/
