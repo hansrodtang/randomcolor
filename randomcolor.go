@@ -19,7 +19,7 @@ const (
 	RANDOM
 )
 
-// New returns a random color in the specifed hue and luminosity.
+// New returns a random color in the specified hue and luminosity.
 func New(hue Color, lum Luminosity) color.Color {
 
 	c := HSV{}
